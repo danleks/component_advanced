@@ -8,6 +8,13 @@
 <script>
 export default {
 
+    props: {
+        componentHeading: {
+            type: Object,
+            required: true
+        }
+    }
+
 }
 </script>
 

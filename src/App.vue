@@ -10,7 +10,7 @@
 
     <div class="row margin-top-medium">
       <component :is="componentActivated">
-          <h2 :class="componentHeading" slot="heading">{{ headingText }}</h2>
+          <h2 :class="componentHeading" slot="heading" :componentHeading = "componentHeading">{{ headingText }}</h2>
           <p :class="componentContent" slot="content">{{ paragraphText }}</p>
       </component>
       <!-- <component :is=" 'app-green' ">
